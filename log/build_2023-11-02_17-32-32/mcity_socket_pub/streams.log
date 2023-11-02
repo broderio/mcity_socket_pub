@@ -1,0 +1,38 @@
+[1.593s] Invoking command in '/root/mcity_socket_pub': PYTHONPATH=/root/mcity_socket_pub/build/mcity_socket_pub/prefix_override:/root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mcity_socket_pub build --build-base /root/mcity_socket_pub/build/mcity_socket_pub/build install --record /root/mcity_socket_pub/build/mcity_socket_pub/install.log --single-version-externally-managed
+[1.979s] running egg_info
+[1.980s] creating build/mcity_socket_pub/mcity_socket_pub.egg-info
+[1.981s] writing build/mcity_socket_pub/mcity_socket_pub.egg-info/PKG-INFO
+[1.982s] writing dependency_links to build/mcity_socket_pub/mcity_socket_pub.egg-info/dependency_links.txt
+[1.982s] writing entry points to build/mcity_socket_pub/mcity_socket_pub.egg-info/entry_points.txt
+[1.983s] writing requirements to build/mcity_socket_pub/mcity_socket_pub.egg-info/requires.txt
+[1.984s] writing top-level names to build/mcity_socket_pub/mcity_socket_pub.egg-info/top_level.txt
+[1.984s] writing manifest file 'build/mcity_socket_pub/mcity_socket_pub.egg-info/SOURCES.txt'
+[1.985s] reading manifest file 'build/mcity_socket_pub/mcity_socket_pub.egg-info/SOURCES.txt'
+[1.987s] writing manifest file 'build/mcity_socket_pub/mcity_socket_pub.egg-info/SOURCES.txt'
+[1.987s] running build
+[1.988s] running build_py
+[1.989s] creating /root/mcity_socket_pub/build/mcity_socket_pub/build
+[1.989s] creating /root/mcity_socket_pub/build/mcity_socket_pub/build/lib
+[1.989s] creating /root/mcity_socket_pub/build/mcity_socket_pub/build/lib/mcity_socket_pub
+[1.989s] copying mcity_socket_pub/__init__.py -> /root/mcity_socket_pub/build/mcity_socket_pub/build/lib/mcity_socket_pub
+[1.989s] copying mcity_socket_pub/publisher.py -> /root/mcity_socket_pub/build/mcity_socket_pub/build/lib/mcity_socket_pub
+[1.989s] running install
+[1.989s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.990s]   warnings.warn(
+[1.990s] running install_lib
+[1.991s] creating /root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages/mcity_socket_pub
+[1.991s] copying /root/mcity_socket_pub/build/mcity_socket_pub/build/lib/mcity_socket_pub/__init__.py -> /root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages/mcity_socket_pub
+[1.991s] copying /root/mcity_socket_pub/build/mcity_socket_pub/build/lib/mcity_socket_pub/publisher.py -> /root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages/mcity_socket_pub
+[1.993s] byte-compiling /root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages/mcity_socket_pub/__init__.py to __init__.cpython-310.pyc
+[1.993s] byte-compiling /root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages/mcity_socket_pub/publisher.py to publisher.cpython-310.pyc
+[1.995s] running install_data
+[1.996s] creating /root/mcity_socket_pub/install/mcity_socket_pub/share/ament_index
+[1.996s] creating /root/mcity_socket_pub/install/mcity_socket_pub/share/ament_index/resource_index
+[1.996s] creating /root/mcity_socket_pub/install/mcity_socket_pub/share/ament_index/resource_index/packages
+[1.997s] copying resource/mcity_socket_pub -> /root/mcity_socket_pub/install/mcity_socket_pub/share/ament_index/resource_index/packages
+[1.997s] copying package.xml -> /root/mcity_socket_pub/install/mcity_socket_pub/share/mcity_socket_pub
+[1.997s] running install_egg_info
+[2.000s] Copying build/mcity_socket_pub/mcity_socket_pub.egg-info to /root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages/mcity_socket_pub-0.0.0-py3.10.egg-info
+[2.002s] running install_scripts
+[2.048s] writing list of installed files to '/root/mcity_socket_pub/build/mcity_socket_pub/install.log'
+[2.096s] Invoked command in '/root/mcity_socket_pub' returned '0': PYTHONPATH=/root/mcity_socket_pub/build/mcity_socket_pub/prefix_override:/root/mcity_socket_pub/install/mcity_socket_pub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mcity_socket_pub build --build-base /root/mcity_socket_pub/build/mcity_socket_pub/build install --record /root/mcity_socket_pub/build/mcity_socket_pub/install.log --single-version-externally-managed

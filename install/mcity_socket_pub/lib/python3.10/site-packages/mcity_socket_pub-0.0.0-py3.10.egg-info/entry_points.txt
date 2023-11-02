@@ -1,0 +1,3 @@
+[console_scripts]
+talker = mcity_socket_pub.publisher:main
+
