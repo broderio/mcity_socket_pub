@@ -1,3 +1,11 @@
+## Docker
+```
+docker run -i -t osrf/ros:humble-desktop
+source /opt/ros/humble/setup.sh
+git clone https://github.com/broderio/mcity_socket_pub.git
+cd mcity_socket_pub
+```
+
 ## MCity Installation
 ```
 cp env_sample .env
