@@ -59,15 +59,15 @@ class MinimalPublisher(Node):
         def on_update(data):
             msg = NavSatFix()
             msg.header.stamp = rospy.Time.now() # get timestamp from socket?
-		    msg.header.frame_id = "gps"
+            msg.header.frame_id = "gps"
 
             # not sure if this is how the data is actually stored
-            msg.status = data['status']
-            msg.latitude = data['latitude']
-            msg.longitude = data['longitude']
-            msg.altitude = data['altitude']
-            msg.position_covariance = data['position_covariance']
-            msg.position_covariance_type = data['position_covariance_type']
+            # msg.status = data['status']
+            # msg.latitude = data['latitude']
+            # msg.longitude = data['longitude']
+            # msg.altitude = data['altitude']
+            # msg.position_covariance = data['position_covariance']
+            # msg.position_covariance_type = data['position_covariance_type']
 
             self.i += 1
             self.publisher_.publish(msg)
